@@ -108,7 +108,7 @@ int main()
     struct Array Arr1 = {{2,5,7,10,13,17},6,10};
     struct Array Arr2 = {{4,5,9,12,17,19},6,10};
     struct Array *Arr3;
-    Arr3 = Intersection(&Arr1,&Arr2);
+    Arr3 = Difference(&Arr1,&Arr2);
     print(*Arr3);
     return 0;
 }
